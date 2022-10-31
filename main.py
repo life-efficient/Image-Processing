@@ -14,6 +14,7 @@ img.show()
 # print(img)
 # img.show()
 
+
 # TODO apply filters
 brightness_enhancer = Brightness(image=img)
 print(brightness_enhancer)
@@ -21,6 +22,10 @@ print(brightness_enhancer)
 img = brightness_enhancer.enhance(0.5)
 img.show()
 
+# but what is a filter?
+
+# TODO apply a uniform filter to blur
+# TODO apply a gaussian filter to denoise
 # TODO resize
 # TODO create pipeline of these transformations
 # TODO normalise
